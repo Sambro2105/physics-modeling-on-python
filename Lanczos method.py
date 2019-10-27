@@ -39,6 +39,7 @@ def Lanczos1(A, maxJ):
     TVal, TVec = np.linalg.eig(T)
     return (TVal, TVec)
 
+
 #generate symmetric matrix A
 A = np.random.rand(L, L) - 0.5
 A = (A + A.T) * 0.5
