@@ -43,6 +43,7 @@ def Paint_snowflake(Koch_snowflake, depth):
     plt.plot(x, y, 'b-')
     plt.show()
     
+    
 # Глубина снежинки
 depth = 4
 
